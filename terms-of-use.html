@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TempoKit Terms of Use</title>
+  <meta name="description" content="TempoKit Terms of Use">
+  <style>
+    :root {
+      --bg: #f6fbfd;
+      --panel: rgba(255, 255, 255, 0.93);
+      --text: #0f2430;
+      --muted: #5d727c;
+      --line: rgba(15, 36, 48, 0.10);
+      --accent: #1d9dd8;
+      --accent-2: #19b26b;
+      --shadow: 0 18px 40px rgba(15, 36, 48, 0.08);
+      --radius: 24px;
+      --content-width: 880px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background:
+        radial-gradient(circle at top left, rgba(29, 157, 216, 0.14), transparent 24rem),
+        radial-gradient(circle at right top, rgba(25, 178, 107, 0.12), transparent 22rem),
+        linear-gradient(180deg, #eef8fc 0%, var(--bg) 100%);
+      color: var(--text);
+      font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .shell {
+      width: min(100% - 32px, var(--content-width));
+      margin: 0 auto;
+      padding: 56px 0 80px;
+    }
+
+    .hero,
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .hero {
+      padding: 32px;
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto auto -60px -30px;
+      width: 220px;
+      height: 220px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(29, 157, 216, 0.16), transparent 68%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(29, 157, 216, 0.10);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .meta-box {
+      padding: 14px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .meta-label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .card {
+      padding: 28px 28px 8px;
+    }
+
+    section {
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 22px;
+    }
+
+    section:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 8px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    ul {
+      margin: 10px 0 0 22px;
+      padding: 0;
+    }
+
+    .notice {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      border: 1px solid rgba(25, 178, 107, 0.16);
+      background: rgba(25, 178, 107, 0.08);
+      color: var(--text);
+    }
+
+    footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 20px, var(--content-width)); padding-top: 24px; }
+      .hero, .card { border-radius: 20px; }
+      .hero { padding: 24px; }
+      .card { padding: 22px 20px 4px; }
+      p, li { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="hero">
+      <span class="eyebrow">TempoKit Legal</span>
+      <h1>Terms of Use</h1>
+      <p class="lede">
+        These Terms of Use govern your access to and use of TempoKit. By downloading or using the app,
+        you agree to these terms.
+      </p>
+      <div class="meta">
+        <div class="meta-box">
+          <span class="meta-label">Effective Date</span>
+          March 2, 2026
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">App</span>
+          TempoKit
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">Contact</span>
+          support@example.com
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <section>
+        <h2>1. Use of the App</h2>
+        <p>
+          TempoKit is a cadence and tempo training app intended for personal fitness, practice,
+          and self-improvement use only.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. No Medical Advice</h2>
+        <p>
+          TempoKit does not provide medical advice, diagnosis, or treatment. Always use your own
+          judgment during physical activity and consult a qualified professional when appropriate.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Subscriptions</h2>
+        <p>
+          TempoKit may offer auto-renewable subscriptions that unlock premium features.
+          Payment will be charged to your Apple ID account at confirmation of purchase.
+          Subscriptions renew automatically unless canceled at least 24 hours before the end of the
+          current billing period. You can manage or cancel subscriptions in your App Store account settings.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Free Trials and Promotional Offers</h2>
+        <p>
+          Any free trial or promotional offer, if available, will be shown in the App Store purchase flow
+          and is governed by Apple&apos;s billing rules and availability.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Apple Standard EULA</h2>
+        <p>
+          Your use of TempoKit is also subject to Apple&apos;s
+          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Standard Licensed Application End User License Agreement</a>
+          where applicable.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Intellectual Property</h2>
+        <p>
+          The app, its branding, design, and content are owned by the developer of TempoKit and may not be
+          copied, redistributed, or used without permission, except as allowed by law.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Acceptable Use</h2>
+        <p>You agree not to:</p>
+        <ul>
+          <li>Use the app in a way that violates applicable law</li>
+          <li>Attempt to interfere with or damage the app</li>
+          <li>Reverse engineer the app except where allowed by law</li>
+          <li>Use the app in a way that creates unreasonable safety risk</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>8. Disclaimer</h2>
+        <p>
+          TempoKit is provided on an &quot;as is&quot; and &quot;as available&quot; basis without warranties of any kind,
+          to the maximum extent permitted by law.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Limitation of Liability</h2>
+        <p>
+          To the fullest extent permitted by law, the developer of TempoKit is not liable for any indirect,
+          incidental, special, consequential, or punitive damages arising from the use of the app.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Changes and Availability</h2>
+        <p>
+          We may update, suspend, or discontinue the app or any feature at any time. We may also update these
+          Terms of Use, and the latest version will be published at this page.
+        </p>
+      </section>
+
+      <section>
+        <h2>11. Contact</h2>
+        <p>
+          For support or legal questions, contact:
+          <a href="mailto:support@example.com">support@example.com</a>
+        </p>
+        <div class="notice">
+          Replace <strong>support@example.com</strong> with your real support email before publishing.
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      TempoKit Terms of Use
+    </footer>
+  </main>
+</body>
+</html>
